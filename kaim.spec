@@ -5,16 +5,15 @@ Version:	0.62
 Release:	3
 License:	GPL
 Group:		Applications/Communications
-Source0:	%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/kaim/%{name}-%{version}.tar.gz
 # Source0-md5:	2d941856dfc84df2b55c404baab2da64
-#Source0:	http://ftp1.sourceforge.net/kinkatta/kinkatta-0.91.tar.gz
+#Source0:	http://dl.sourceforge.net/kinkatta/kinkatta-0.91.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-configure.patch
 Patch1:		%{name}-Makefile.patch
 URL:		http://kinkatta.sourceforge.net/
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 KDE AOL Instant Messager (KAIM for short) is a replacement for classic
