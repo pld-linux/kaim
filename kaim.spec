@@ -2,7 +2,7 @@ Summary:	Messager compatible with Aol Instant Messager (AIM)
 Summary(pl):	Komunikator kompatybilny z Aol Instant Messager (AIM)
 Name:		kaim
 Version:	0.62
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Communications
 Source0:	%{name}-%{version}.tar.gz
@@ -37,7 +37,7 @@ Zapewnia pe³n± kompatybilno¶æ z oryginaln± wersj± AIM. Posiada skrót
 %patch1 -p1
 
 %build
-%configure
+%configure2_13
 %{__make}
 
 %install
@@ -47,14 +47,12 @@ install -d $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications
 
-gzip -9nf NEWS PROTOCOL README TODO AUTHORS
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc NEWS PROTOCOL README TODO AUTHORS
 %attr(755,root,root) %{_bindir}/kaim
 %{_libdir}/liboptions.a
 %{_datadir}/kaim
