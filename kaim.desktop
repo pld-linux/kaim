@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=KAIM
+Name[pl]=KAIM
+Comment=KDE AOL Instant Messager
+Comment[pl]=KDE AOL Instant Messager
+Exec=kaim
+Icon=/usr/X11R6/share/kaim/icons/kaim.png
+Terminal=0
+Type=Application
