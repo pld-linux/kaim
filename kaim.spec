@@ -43,17 +43,19 @@ Zapewnia pe³n± kompatybilno¶æ z oryginaln± wersj± AIM. Posiada skrót
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_applnkdir}/Network
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT%{_applnkdir}/Network
-cp %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network
+install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network
+
+gzip -9nf NEWS PROTOCOL README TODO AUTHORS
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc NEWS PROTOCOL README TODO AUTHORS
+%doc *.gz
 %attr(755,root,root) %{_bindir}/kaim
 %{_libdir}/liboptions.a
 %{_datadir}/kaim
