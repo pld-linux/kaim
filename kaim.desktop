@@ -7,3 +7,4 @@ Exec=kaim
 Icon=/usr/X11R6/share/kaim/icons/kaim.png
 Terminal=0
 Type=Application
+# vi: encoding=utf-8
