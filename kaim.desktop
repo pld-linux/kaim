@@ -5,6 +5,6 @@ Comment=KDE AOL Instant Messager
 Comment[pl]=KDE AOL Instant Messager
 Exec=kaim
 Icon=/usr/X11R6/share/kaim/icons/kaim.png
-Terminal=0
+Terminal=false
 Type=Application
 # vi: encoding=utf-8
