@@ -14,7 +14,6 @@ URL:		http://kinkatta.sourceforge.net/
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _prefix         /usr/X11R6
 
 %description
 KDE AOL Instant Messager (KAIM for short) is a replacement for classic
