@@ -25,7 +25,7 @@ properly without that environment.
 
 %description -l pl
 KDE AOL Instant Messager (KAIM w skrócie) jest zamiennikiem
-klasycznego AIM dla Linuxa. Pozwala on poznawaæ nowych przyjació³ i z
+klasycznego AIM dla Linuksa. Pozwala on poznawaæ nowych przyjació³ i z
 nimi siê kontaktowaæ za jego pomoc±. Jestbardzo podobny do ICQ.
 Zapewnia pe³n± kompatybilno¶æ z oryginaln± wersj± AIM. Posiada skrót
 "KDE" w swojej nazwie, ale mo¿e doskonale obyæ siê bez tego
