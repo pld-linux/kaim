@@ -5,8 +5,6 @@ Version:	0.62
 Release:	2
 License:	GPL
 Group:		Applications/Communications
-Group(de):	Applikationen/Kommunikation
-Group(pl):	Aplikacje/Komunikacja
 Source0:	%{name}-%{version}.tar.gz
 #Source0:	http://ftp1.sourceforge.net/kinkatta/kinkatta-0.91.tar.gz
 Source1:	%{name}.desktop
