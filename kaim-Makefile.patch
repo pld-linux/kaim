@@ -1,0 +1,12 @@
+diff -ru kaim-0.62/kaim/Makefile.in kaim-0.62.AX/kaim/Makefile.in
+--- kaim-0.62/kaim/Makefile.in	Tue Feb 13 02:16:13 2001
++++ kaim-0.62.AX/kaim/Makefile.in	Thu Feb 15 17:05:21 2001
+@@ -195,7 +195,7 @@
+ 
+ kaim_SOURCES = aim.cpp awaymessage.cpp buddylistwindow.cpp chatwindow.cpp editbox.cpp imconfirm.cpp info.cpp kaim.cpp kaimapplication.cpp kaimiconloader.cpp kaimtextbrowser.cpp kaimviewlist.cpp kitsocket.cpp kitsockset.cpp ksock.cpp linkdialog.cpp login.cpp main.cpp newawaymessage.cpp newpounce.cpp newpounceimp.cpp setup.cpp signon.cpp taim.cpp tbuddylist.cpp tsfbuffer.cpp GPGInterface.cpp browser.cpp
+ 
+-kaim_LDADD = -Loptions -loptions -lqt -lXext -lX11 -lpthread $(LIBSOCKET)
++kaim_LDADD = -Loptions -loptions -lqt -lXt -lXext -lX11 -lpthread $(LIBSOCKET)
+ 
+ SUBDIRS = icons sounds options
+ # docs not there

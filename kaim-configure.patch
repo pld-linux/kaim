@@ -1,0 +1,12 @@
+diff -ru kaim-0.62/configure kaim-0.62.AX/configure
+--- kaim-0.62/configure	Mon Feb 12 02:17:35 2001
++++ kaim-0.62.AX/configure	Thu Feb 15 16:15:35 2001
+@@ -4398,7 +4398,7 @@
+ 
+ 
+ 
+-LIBQT="-lqt"
++LIBQT="-lqt -lXt"
+ if test $kde_qtver = 2; then
+ 
+   
