@@ -1,5 +1,5 @@
 Summary:	Messager compatible with Aol Instant Messager (AIM)
-#Summary(pl):	-
+Summary(pl):	Komunikator kompatybilny z Aol Instant Messager (AIM)
 Name:		kaim	
 Version:	0.62
 Release:	0
@@ -17,9 +17,19 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define         _prefix         /usr/X11R6
 
 %description
-kaim
+KDE Aol Instant Messager (KAIM for short) is a replacement for classic
+AIM for Linux. It lets you to meet new friends and keep in touch with
+them. Something similar to ICQ. It is fully compatible with original
+versions of AIM. It has "KDE" in its name but it can work and compile
+properly without that environment.
 
-#%description -l pl
+%description -l pl
+KDE Aol Instant Messager (KAIM w skrócie) jest zamiennikiem
+klasycznego AIM dla Linuxa. Pozwala on poznawaæ nowych przyjació³ i z
+nimi siê kontaktowaæ za jego pomoc±. Jestbardzo podobny do ICQ.
+Zapewnia pe³n± kompatybilno¶æ z oryginaln± wersj± AIM. Posiada skrót
+"KDE" w swojej nazwie, ale mo¿e doskonale obyæ siê bez tego
+¶rodowiska.
 
 %prep
 %setup  -q
@@ -50,7 +60,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) /usr/X11R6/bin/kaim
-#whatfor?
-/usr/X11R6/lib/liboptions.a
-/usr/X11R6/share/kaim
+%attr(755,root,root) %{_bindir}/kaim
+%{_libdir}/liboptions.a
+%{_datadir}/kaim
