@@ -8,10 +8,11 @@ Group:		Applications/Communications
 Group(de):	Applikationen/Kommunikation
 Group(pl):	Aplikacje/Komunikacja
 Source0:	%{name}-%{version}.tar.gz
+#Source0:	http://ftp1.sourceforge.net/kinkatta/kinkatta-0.91.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-configure.patch
 Patch1:		%{name}-Makefile.patch
-URL:		http://kaim.sourceforge.net/
+URL:		http://kinkatta.sourceforge.net/
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
