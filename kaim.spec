@@ -41,10 +41,12 @@ Zapewnia pe³n± kompatybilno¶æ z oryginaln± wersj± AIM. Posiada skrót
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications
+install -d $RPM_BUILD_ROOT%{_desktopdir}
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Network/Communications
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
+
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -55,4 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/kaim
 %{_libdir}/liboptions.a
 %{_datadir}/kaim
-%{_applnkdir}/Network/Communications/kaim.desktop
+%{_desktopdir}/kaim.desktop
