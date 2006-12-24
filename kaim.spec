@@ -5,13 +5,13 @@ Version:	0.62
 Release:	3
 License:	GPL
 Group:		Applications/Communications
-Source0:	http://dl.sourceforge.net/kaim/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/kinkatta/%{name}-%{version}.tar.gz
 # Source0-md5:	2d941856dfc84df2b55c404baab2da64
 #Source0:	http://dl.sourceforge.net/kinkatta/kinkatta-0.91.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-configure.patch
 Patch1:		%{name}-Makefile.patch
-URL:		http://kinkatta.sourceforge.net/
+URL:		http://sourceforge.net/projects/kinkatta/
 BuildRequires:	qt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
