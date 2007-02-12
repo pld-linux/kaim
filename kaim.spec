@@ -1,5 +1,5 @@
 Summary:	Messager compatible with Aol Instant Messager (AIM)
-Summary(pl):	Komunikator kompatybilny z Aol Instant Messager (AIM)
+Summary(pl.UTF-8):   Komunikator kompatybilny z Aol Instant Messager (AIM)
 Name:		kaim
 Version:	0.62
 Release:	3
@@ -22,13 +22,13 @@ them. Something similar to ICQ. It is fully compatible with original
 versions of AIM. It has "KDE" in its name but it can work and compile
 properly without that environment.
 
-%description -l pl
-KDE AOL Instant Messager (KAIM w skrócie) jest zamiennikiem
-klasycznego AIM dla Linuksa. Pozwala on poznawaæ nowych przyjació³ i z
-nimi siê kontaktowaæ za jego pomoc±. Jest bardzo podobny do ICQ.
-Zapewnia pe³n± kompatybilno¶æ z oryginaln± wersj± AIM. Posiada skrót
-"KDE" w swojej nazwie, ale mo¿e doskonale obyæ siê bez tego
-¶rodowiska.
+%description -l pl.UTF-8
+KDE AOL Instant Messager (KAIM w skrÃ³cie) jest zamiennikiem
+klasycznego AIM dla Linuksa. Pozwala on poznawaÄ‡ nowych przyjaciÃ³Å‚ i z
+nimi siÄ™ kontaktowaÄ‡ za jego pomocÄ…. Jest bardzo podobny do ICQ.
+Zapewnia peÅ‚nÄ… kompatybilnoÅ›Ä‡ z oryginalnÄ… wersjÄ… AIM. Posiada skrÃ³t
+"KDE" w swojej nazwie, ale moÅ¼e doskonale obyÄ‡ siÄ™ bez tego
+Å›rodowiska.
 
 %prep
 %setup  -q
