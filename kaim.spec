@@ -1,5 +1,5 @@
 Summary:	Messager compatible with Aol Instant Messager (AIM)
-Summary(pl.UTF-8):   Komunikator kompatybilny z Aol Instant Messager (AIM)
+Summary(pl.UTF-8):	Komunikator kompatybilny z Aol Instant Messager (AIM)
 Name:		kaim
 Version:	0.62
 Release:	3
